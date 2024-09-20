@@ -219,7 +219,7 @@ input:hover, textarea:hover{
 }
 textarea{
     min-height: 10vh;
-    max-width: 60vh;
+    max-width: 60vh; 
     min-width: 60vh;
 }
 #contform button {
@@ -243,7 +243,7 @@ textarea{
     bottom: 5vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center;    
 }
 #socials #icons{
     display: flex;
