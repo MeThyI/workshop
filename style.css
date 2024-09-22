@@ -26,14 +26,14 @@ nav{
     gap: 15vh;
     top: 0;
     z-index: 1000;
-    backdrop-filter: blur(15px);     
+    backdrop-filter: blur(15px);
 }
 nav a{
     color: #ffffff;
     text-decoration: none;
     transition: 0.5s, cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-#About,#Qualifications,#Experience, #Skills, #Contact {
+#About,#Qualifications,#Exp, #Skills, #Contact {
     display: flex;
     align-items: center;
     justify-content:space-around;
@@ -41,6 +41,20 @@ nav a{
     height: 100vh;
     margin-left: 0%;
     margin-right: 0%;
+}
+.Exp{
+  display: flex;
+  align-items: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  top: 20em;
 }
 .about{
   display: flex;
